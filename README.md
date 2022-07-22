@@ -1,8 +1,9 @@
-# OnlyUps SDK and Keep3r
+# OnlyUps SDK and Keep3rs
 OnlyUps Offchain SDK and API Codebase
 
-### OnlyUps EARN: 
+### OnlyUps EARN - run your own keep3r: 
 
-* Currently OnlyUps.xyz provides an API endpoint serving essential params for matching Seaport orders - stay tuned for upcoming keep3r+SDK release
+* Currently OnlyUps.xyz provides a rate-limited API endpoint serving essential params for matching Seaport orders - not required for clients running their own OpenSea API nodes
 * matchOrders() is permissionless (fillable by any EOA or contract)
-* matchOrders() requires ABI (published in this repo) and two OnlyUps orders in OpenSea Seaport format
+* matchOrders() requires an ABI (published in this repo) and two matchable OnlyUps orders in the OpenSea Seaport format
+* stay tuned for upcoming keep3r+SDK release
